@@ -1,0 +1,321 @@
+ .one{
+  background-color: red;
+  color: aliceblue;
+ }
+
+ .two{
+  background-color: silver;
+  width: 100px;
+  height: 100px;
+ }
+
+ a{
+  color: red;
+  text-decoration: none;
+ }
+
+ a:hover{
+  color: blue;
+ }
+
+ a:visited{
+    color: blue;
+ }
+
+ .ch:checked + label {
+   color: blue;
+ }
+
+ .zxc{
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   margin: 20px auto;
+   border-radius: 25px;
+   border-style: solid;
+   box-shadow: 5px 5px 0px #00ffdc, -5px -5px 0px rgb(255, 7, 90);
+ }
+
+ .vbn{
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   margin: 20px auto;
+   border-radius: 25px;
+   border-style: solid;
+   box-shadow: 5px 5px 0px #00ffdc, -5px -5px 0px rgb(255, 7, 90);
+   position: relative;
+   bottom: 80px;
+   left: 300px;
+ }
+
+ .mnb{
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   margin: 20px auto;
+   border-radius: 25px;
+   border-style: solid;
+   box-shadow: 5px 5px 0px #00ffdc, -5px -5px 0px rgb(255, 7, 90);
+   position: relative;
+   bottom: 145px;
+   right: 291px;
+ }
+
+ .qwe{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 20px auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 35px;
+  box-shadow: 0px 0px 20px 0 black inset;
+ }
+
+ *{
+  -wabkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+ .parent{
+  width: 640px;
+  overflow: hidden;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ddd;
+ }
+
+ .son{
+  background-color: #eee;
+  width: 300px;
+  float: left;
+  padding: 10px;
+  border: 3px solid red;
+ }
+
+ .three{
+  width: 110px;
+  overflow: hidden;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(209, 209, 209);
+ }
+
+ .bas{
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ddd;
+ }
+
+ .ic{
+  width: 210px;
+  color: white;
+  padding-left: 75px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: blue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  }
+
+ .ig{
+  width: 210px;
+  height: 210px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 5.5;
+  padding-left: 75px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: silver;
+  border-radius: 50%;
+}
+
+.zx{
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  transition-duration: 1000ms;
+  transition-property: width;
+  transition-timing-function: ease;
+}
+.zx:hover{
+  width: 250px;
+}
+.parent2{
+  overflow: hidden;
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  background-color: #eee;
+}  
+.parent2 .son2, 
+.parent2 .son3{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+ .son2{
+  background-color: #ddd;
+}
+ .son2{
+  background-color: #aaa;
+}
+
+.up{
+  background-color: red;
+  color: #eee;
+  height: 50%;
+}
+
+.down{
+  background-color: green;
+  color: #eee;
+  height: 50%;
+}
+
+.oneone{
+background-color: #ddd;
+width: 200px;
+height: 100px;
+transition-duration: 0.2s;
+transition-property: width;
+}
+
+.oneone:hover{
+  width: 280px;
+}
+
+.father{
+  background-color: #eee;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  margin: 50px auto;
+  text-align: center;
+  transition-duration: 1s;
+}
+
+.father:hover{
+  width: 450px;
+  margin-top: 70px;
+}
+
+.daughter{
+  background-color: #aaa;
+  padding: 20px;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+}
+
+.father:hover .daughter{
+  margin-top: 20px;
+}
+
+:root{
+  --mainColor: green;
+}
+
+.maindiv{
+  background-color: var(--mainColor);
+  color: white;
+  padding: 20px;
+}
+
+.title{
+  background-color: silver;
+  color: var(--mainColor);
+  padding: 20pxs;
+}
+
+.pra{
+  color: var(--mainColor);
+  border: 20px solid var(--mainColor);
+  padding: 20pxs;
+}
+
+.link:hover{
+  color: var(--mainColor);
+}
+
+.test{
+  background-color: silver !important;
+  color: black !important;
+  border: none !important;
+  font-size: 20px !important;
+  width: 400px !important;
+  text-align: center !important;
+  padding: 20px !important;
+  margin: 50px auto !important;
+  position: relative;
+  text-indent: -20000px;
+}
+
+.test::after{
+  content:"Elzero";
+  position: absolute;
+  text-indent: 0;
+  left: 190px;
+}
+
+.anthertest{
+  color: lightseagreen;
+  border: 3px solid lightseagreen;
+  padding: 20px;
+  margin: 5px;
+}
+
+:root{
+  --masterColor: red;
+  --masterBorder: black;
+}
+
+.anthertest{
+  color: var(--masterColor);
+  border: 3px solid var(--masterBorder);
+  padding: 20px;
+  margin: 5px;
+}
+
+.flex{
+  overflow: hidden;
+  background-color: #aaa;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.flex div{
+  background-color: red;
+  color: white;
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+
+.float{
+  overflow: hidden;
+  background-color: #aaa;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.float div{
+  background-color: red;
+  color: white;
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
